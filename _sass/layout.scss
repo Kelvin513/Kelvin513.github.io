@@ -1,0 +1,34 @@
+header.site-header{
+  height: 206px;
+  background-color: #f9f9f9;
+  border: 0px solid black;
+
+  .site-title{
+    color: #a7a7a7;
+    font-family: 'Roboto Slab', serif;
+    float: none;
+    vertical-align: middle;
+    margin-left: 16px;
+  }
+
+  .wrapper{
+    max-width: 1440px;
+  }
+  
+}
+
+.avatar-and-intro-wrapper{
+  width: 462px;
+  position: absolute;
+  top:76px;
+  .avatar-and-intro{
+    position: relative;
+  }
+  .intro{
+    position: absolute;
+    left: 67px;
+    top: 308px;
+    background-color: #fff;
+    padding: 30px 40px;
+  }
+}

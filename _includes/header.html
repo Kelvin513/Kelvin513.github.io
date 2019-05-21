@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <img src="{{ "/assets/images/logo.svg" | relative_url }}"/>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <div class='avatar-and-intro-wrapper'>
+      <div class='avatar-and-intro'>
+        <img src="{{ "/assets/images/kelvin.png" | relative_url }}"/>
+        <div class='intro'>
+          <h1>Let’s make <br>a better world</h1>
+          <p2>Product designer from Taipei,<br> striving for changing things that matter.</p2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
