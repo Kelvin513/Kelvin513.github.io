@@ -11,3 +11,25 @@ h1{
   line-height: 1.1;
   color: $black;
 }
+
+.link-button{
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  &:hover{
+    text-decoration: underline;
+    color: $blue;
+    span.arrow{
+    background-image: url("../../assets/images/arrow_hover.svg");
+    }
+  }
+}
+
+span.arrow{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/images/arrow.svg");
+}

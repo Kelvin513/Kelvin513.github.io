@@ -14,8 +14,8 @@ header.site-header{
   .wrapper{
     max-width: 1440px;
   }
-  
 }
+
 
 .avatar-and-intro-wrapper{
   width: 462px;
@@ -38,4 +38,53 @@ header.site-header{
   .intro p2{
     font-size: 18px;
   }
+}
+
+.page-content .wrapper{
+  margin-top: -100px;
+  position: absolute;
+  left: 38%;
+}
+
+.projects-heading{
+  color: #a7a7a7;
+  font-family: 'Roboto Slab', serif;
+  // float: none;
+  // vertical-align: middle;
+}
+
+.up-20px{
+  margin-top: 20px;
+}
+
+.rotate90{
+  transform: rotate(90deg);
+}
+
+.scrolling-number{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.sidebar-email{
+  margin-top: 50px;
+  font-size: 14px;
+  color: #757575;
+}
+
+.sidebar-icon{
+  // margin: 0px auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.sidebar-icon-first{
+  margin-top: 130px;
+}
+
+.sidebar{
+  padding-top: 75px;
+  width:70px;
+  height: 300px;
+  position: fixed;
+  right: 60px;
 }
