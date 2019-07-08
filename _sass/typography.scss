@@ -33,3 +33,12 @@ span.arrow{
   height: 20px;
   background-image: url("../../assets/images/arrow.svg");
 }
+
+
+h3.blue {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: $blue;
+}
