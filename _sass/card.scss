@@ -1,0 +1,27 @@
+.post-list-item{
+  margin-bottom: 50px;
+  .post-title-block{
+    vertical-align:middle;
+    width: 210px;
+    display: inline-block;
+    span{
+      display: block;
+      margin-bottom:10px;
+    }
+    h3{
+        font-family: Heebo;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 1.22;
+        color: $black;
+    }
+  }
+  .post-thumbnail{
+    vertical-align:middle;
+    display: inline-block;
+    width: 430px;
+  }
+  img{
+    box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.06);
+  }
+}
