@@ -2,7 +2,10 @@ header.site-header{
   height: 206px;
   background-color: #f9f9f9;
   border: 0px solid black;
-
+  &.header-post{
+    height:60px;
+    padding-top: 10px;
+  }
   .site-title{
     color: #a7a7a7;
     font-family: 'Roboto Slab', serif;
@@ -41,9 +44,10 @@ header.site-header{
 }
 
 .page-content .wrapper{
-  margin-top: -150px;
+  margin-top: -140px;
   position: absolute;
-  left: 38%;
+  left: 28%;
+  max-width: 1440px;
   &.no-neg-margin{
     margin-top: 0px;
   }
@@ -90,4 +94,10 @@ header.site-header{
   height: 300px;
   position: fixed;
   right: 60px;
+}
+
+
+.post-with-cover{
+  background: white;
+  padding: 90px;
 }
