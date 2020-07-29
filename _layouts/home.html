@@ -24,6 +24,21 @@ layout: default
           {%- endif -%}
         </div>
       </div>
+      <div class="post-list-item-mobile">
+        <div class="post-thumbnail">
+          {% if post.thumbnail %}
+            <img class="thumbnail" src="{{post.thumbnail}}">
+          {%- endif -%}
+        </div>
+        <div class="post-title-block">
+          <span class="post-category">{{post.category}}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+        </div>
+      </div>
       {%- endfor -%}
   {%- endif -%}
 

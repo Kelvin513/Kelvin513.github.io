@@ -1,10 +1,40 @@
+.post-list-item-mobile{
+  display: none;
+}
 @media screen and (max-width: 800px) {
+  .post-list-item{
+    display:none;
+  }
+  .post-list-item-mobile{
+    display:block;
+    .post-category{
+      font-size: 14px;
+      color: #1251db;
+    }
+    h3{
+      a{
+        text-decoration: none;
+        color: #313131;
+      }
+    }
+  }
   .sidebar{
     right: 0px;
     position:absolute;
+    padding-top: 0px;
+  }
+  .sidebar .scrolling-number{
+    display: none;
+  }
+  .sidebar-icon-first{
+    margin-top: 60px;
+  }
+  .avatar-and-intro-wrapper .intro h1{
+    font-size: 28px;
   }
   header.site-header{
     height: 530px;
+    background-color: white;
   }
   header.site-header .wrapper{
     padding: 0px;
