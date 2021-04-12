@@ -6,4 +6,28 @@ category: ["Product Design"]
 thumbnail: /assets/images/thumbnail_default.png
 cover: /assets/images/cover_default.png
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Equallove.tw recharges your LGBT+ knowledge! Know more about Taiwan's civil law changing progress & latest information.
+
+#### Time
+2018.6 - 2019.1
+
+#### Client
+[Equallove.tw](Equallove.tw)
+
+#### What I did
+Strategy, Product Design, Motion Design
+
+#### Partners
+Johnny Wang, Yu-Hsuan Lin
+
+![Equal Love Image 2](/assets/images/equallove_2.png){:.normal-width}
+
+##### Background
+## Designing for Tomorrow
+
+Anyone who works in tech knows the industry has taken a beating in recent years for its perceived lack of morals and careless culture of “move fast, break things.” Companies are starting to realise how much damage has been done to labor markets, privacy, and mental health – and look at how to do things differently going forward.
+
+As designers, we have a huge role to play in bringing about this cultural change. And to see why, just look at the evolution of design as a profession. Digital designers started out as artistically-inclined, CSS-writing engineers. But increasingly, designers have come to embody the voice of the user and strive for what Don Norman dubbed “user-centered design.”
+
+
+![Equal Love Image 3](/assets/images/equallove_3.png){:.full-width}

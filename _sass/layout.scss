@@ -1,10 +1,11 @@
+$baseurl: "{{ site.baseurl }}";
+
 header.site-header{
   height: 206px;
   background-color: #f9f9f9;
   border: 0px solid black;
   &.header-post{
-    height:60px;
-    padding-top: 10px;
+    height:70px;
   }
   .site-title{
     color: #a7a7a7;
@@ -13,10 +14,19 @@ header.site-header{
     vertical-align: middle;
     margin-left: 16px;
   }
-
   .wrapper{
     max-width: 1440px;
   }
+}
+
+.kelvin-head{
+  background-image: url(/assets/images/kelvin.png);
+  background-position-y: -132px;
+  width:305px;
+  height:70px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 
@@ -46,9 +56,8 @@ header.site-header{
 
 .page-content .wrapper{
   margin-top: -140px;
-  position: absolute;
-  left: 28%;
   max-width: 1440px;
+  padding-left: 35%;
   &.no-neg-margin{
     margin-top: 0px;
   }
@@ -87,6 +96,22 @@ header.site-header{
 }
 .sidebar-icon-first{
   margin-top: 130px;
+}
+
+.sidebar{
+  padding-top: 75px;
+  width:70px;
+  height: 300px;
+  position: fixed;
+  right: 60px;
+}
+
+.sidebar-left{
+  top: 90%;
+  width:70px;
+  height: 300px;
+  position: absolute;
+  left: 60px; 
 }
 
 .sidebar{

@@ -1,0 +1,53 @@
+.wrapper.post-wrapper{
+  padding: 0px;
+  padding-left: 25%;
+}
+.post-header{
+  margin-bottom: 12px;
+}
+
+h5.post-category{
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: $blue;
+}
+
+.post-content p{
+  font-size: 20px;
+}
+
+.post-content{
+  h2{
+    font-size: 24px;
+    color: $grey; 
+    font-family: 'Roboto Slab', serif;
+  }
+
+  h4{
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  h5{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: $blue;
+  }
+  
+  .normal-width{
+    margin: 60px 0px;
+    width: 700px
+  }
+  .full-width{
+    width:100%;
+  }
+}
+
+.more-works{
+  padding: 0% 20%;
+  h2{
+    font-size: 24px;
+    color: $grey;
+    font-family: 'Roboto Slab', serif;
+  }
+}

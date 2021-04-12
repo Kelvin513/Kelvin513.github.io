@@ -5,6 +5,7 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <img src="{{ "/assets/images/logo.svg" | relative_url }}"/>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="kelvin-head"/>
   </div>
 </header>
 {% if page.cover %}
