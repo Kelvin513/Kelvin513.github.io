@@ -6,7 +6,7 @@ layout: default
   Projects
 </h2>
 
-<div class="home">
+<div class="home home-posts">
   {%- if site.posts.size > 0 -%}
       {%- for post in site.posts -%}
       <div class="post-list-item">
@@ -43,3 +43,9 @@ layout: default
   {%- endif -%}
 
 </div>
+
+<script>
+  var scroll_div = document.getElementById("scrolling-number");
+  scroll_div.style.display = "block";
+</script>
+

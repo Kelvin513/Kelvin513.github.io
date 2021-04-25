@@ -55,7 +55,6 @@ header.site-header{
 }
 
 .page-content .wrapper{
-  margin-top: -140px;
   max-width: 1440px;
   padding-left: 35%;
   &.no-neg-margin{
@@ -81,6 +80,7 @@ header.site-header{
 .scrolling-number{
   font-weight: bold;
   font-size: 23px;
+  display: none;
 }
 
 .sidebar-email{

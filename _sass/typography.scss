@@ -3,6 +3,7 @@
 
 body{
   font-family: 'Heebo', sans-serif;
+  color: $black2;
 }
 
 h1{
@@ -50,4 +51,9 @@ h3.blue {
   line-height: 1.13;
   letter-spacing: normal;
   color: $blue;
+}
+
+
+p.about-intro{
+  font-size: 20px;
 }

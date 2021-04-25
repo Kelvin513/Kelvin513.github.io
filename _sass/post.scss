@@ -16,7 +16,12 @@ h5.post-category{
   font-size: 20px;
 }
 
+.post-title{
+  letter-spacing: 0;
+}
+
 .post-content{
+  letter-spacing: 0;
   h2{
     font-size: 24px;
     color: $grey; 

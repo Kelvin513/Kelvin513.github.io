@@ -1,0 +1,53 @@
+.page-content .wrapper.about{
+    width: 700px;
+    margin-left: 35%;
+    padding: 0;
+}
+.about{
+  h2{
+    margin-top: 78px;
+    font-size: 24px;
+    color: $grey; 
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .company-card{
+    margin-top: 16px;
+    display: flex;
+    width: 700px;
+    height: 81px;
+    // margin: 40px 108px 15px 79px;
+    // padding: 8px 20px 8px 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06), 0 0 1px 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    .company-card-logo {
+      padding: 8px;
+    }
+    .company-card-logo > img {
+      width: 60px;
+    }
+    .company-card-text{
+      padding: 16px 18px;
+      .company-card-name{
+        font-size: 23px;
+        font-weight: 500;
+        color: $blue;
+        line-height: 1.13;
+      }
+      .company-card-role{
+        font-size: 16px;
+        color: $grey;
+      }
+    }
+    .company-card-time{
+      margin-left: auto;
+      color: #c7c7c7;
+      align-self: center;
+      padding-right:20px;
+    }
+  }
+ 
+
+
+
+}
