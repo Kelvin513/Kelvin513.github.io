@@ -1,12 +1,11 @@
+<div class="header-gray-bg"></div>
 <header class="site-header">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <img src="{{ "/assets/images/logo.svg" | relative_url }}" class="banana-logo"/>
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+    {% include blocks/banana_logo.html %}
     {% include blocks/avatar_and_intro_block_simple.html %}
   </div>
 </header>

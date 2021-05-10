@@ -22,7 +22,10 @@
     width: 430px;
   }
   img{
-    box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.06);
     border-radius: 3px;
+    transition: 0.5s;
+    &:hover{
+      box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.08);
+    }
   }
 }

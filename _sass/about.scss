@@ -1,7 +1,13 @@
 .page-content .wrapper.about{
-    width: 700px;
-    margin-left: 35%;
-    padding: 0;
+  width: 700px;
+  margin-left: 35%;
+  margin-top: 252px;
+  padding: 0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 .about{
   h2{
