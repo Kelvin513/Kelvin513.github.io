@@ -12,7 +12,7 @@
   margin-top: 70px;
 }
 
-h5.post-category{
+.post-category{
     font-size: 14px;
     margin-bottom: 24px;
     color: $blue;
@@ -60,5 +60,13 @@ h5.post-category{
     font-size: 24px;
     color: $grey;
     font-family: 'Roboto Slab', serif;
+  }
+}
+
+.post-link{
+  color: $black2;
+  text-decoration:none;
+  &:visited{
+    color: $black2;
   }
 }
